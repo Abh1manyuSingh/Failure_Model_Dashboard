@@ -26,3 +26,13 @@ Clone the repo and install dependencies:
 git clone https://github.com/<your-username>/Failure-Model-Dashboard.git
 cd Failure-Model-Dashboard
 pip install -r requirements.txt
+
+
+Run Dashboard - 
+streamlit run Failure_model_dashboard.py
+
+Run CLI -
+python Failure_model_dashboard.py --folder "/path/to/data"
+
+Run Watchdog
+python Failure_model_dashboard.py --watchdog "/path/to/data"
