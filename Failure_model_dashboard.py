@@ -1,20 +1,16 @@
-# abfu_model_dashboard.py
+# Failure_model_dashboard.py
 # One-file "model + app" to analyze many Excel files (ABFU style) and visualize fails
 # -----------------------------------------------------------------------------------
 # HOW TO RUN (choose one):
 #   1) DASHBOARD (recommended):
-#         streamlit run abfu_model_dashboard.py
+#         streamlit run Failure_model_dashboard.py
 #
 #   2) COMMAND LINE (exports CSVs only):
-#         python abfu_model_dashboard.py --folder "C:\path\to\your\data"
+#         python Failure_model_dashboard.py --folder "C:\path\to\your\data"
 #
 # LIBRARIES NEEDED (you already have them, but for reference):
 #   pip install pandas openpyxl streamlit altair reportlab watchdog
 
-#to run commands
-#streamlit run /Users/abhimanysingh/Downloads/Internship/abfu_model_dashboard.py
-#/Users/abhimanyusingh/Downloads/Internship/sorted/abfu
-#python abfu_model_dashboard.py --watchdog "/Users/abhimanysingh/Downloads/Internship/sorted/abfu"
 
 
 from __future__ import annotations
